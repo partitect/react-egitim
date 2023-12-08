@@ -1,0 +1,19 @@
+
+@import 'ui/buttons.scss';
+
+$kirmizi: red;
+.renk{
+    background-color: $kirmizi;
+    width: 100px;
+    height: 100px;
+    &.deneme{
+    background-color: blue;
+}
+    a{
+        color:blue;
+        &:hover{
+            color: green;
+        }
+    }
+}
+

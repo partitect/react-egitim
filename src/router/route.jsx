@@ -6,11 +6,12 @@ export const ProfileScreen = lazy(() => import("../pages/profile"));
 export default function Router() {
   const routes = useRoutes([
     {
-      path: "home",
+      path: "/",
       element: <HomeScreen />,
+      index: true,
     },
     {
-      path: "profile",
+      path: "/profile",
       element: <ProfileScreen />,
     },
   ]);

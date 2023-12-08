@@ -1,11 +1,25 @@
-import { Box, Grid } from "@mui/material";
-import CardComponent from "../components/card-component";
-import CardImage from "../assets/1.webp";
+/* eslint-disable no-undef */
+/* import { Box, Grid } from "@mui/material";
+import CardComponent from "../components/card-component"; */
+/* import CardImage from "../assets/1.webp";
 import CardImage2 from "../assets/2.webp";
-import CardImage3 from "../assets/3.webp";
+import CardImage3 from "../assets/3.webp"; */
+import "../styles/main.scss";
 
 export default function HomeScreen() {
-  const gameCardList = [
+  /*   const Ayse =
+    styled.input <
+    { title } >
+    `
+    font-size: 1.5em;
+    
+    background: var(--accent-color);
+    color: black;
+
+    olor: ${title || "#BF4F74"};
+  
+  `; */
+  /* const gameCardList = [
     {
       image: CardImage,
       title: "Upcoming Games",
@@ -36,9 +50,15 @@ export default function HomeScreen() {
       sendNumber: 33,
       messageNumber: 44,
     },
-  ];
+  ]; */
   return (
-    <Box
+    <>
+      <div className="renk deneme">
+        <a href="https://www.google.com">Google</a>
+      </div>
+      <div className="deneme"></div>
+    </>
+    /*  <Box
       sx={{
         width: "100%",
         height: "100vh",
@@ -50,9 +70,13 @@ export default function HomeScreen() {
     >
       <Grid container spacing={2}>
         {gameCardList.map((item, index) => (
-          <CardComponent key={index} data={item} />
+        
+           
+            <CardComponent key={index} data={item} />
+           
+         
         ))}
       </Grid>
-    </Box>
+    </Box> */
   );
 }
